@@ -1,0 +1,60 @@
+/* Project CSS 
+============================================================
+============================================================*/
+body {
+    background: #b6b6b6;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.034em;
+    line-height: 22pt;
+    margin: 0;
+}
+
+/* HEADER ============================== */
+nav {
+    width: cover;
+    height: 160px;
+    background: #e6e6e6;
+    margin: 0;
+    padding-left: 2%;
+}
+
+nav h1 {
+    color: #00aad6;
+    font-size: 3em;
+    margin-top: 105px;
+    float: left;
+}
+
+#logo {
+    width: 100px;
+    margin: 10px 15px;
+    float: left;
+    position: 
+}
+
+/* ABOUT ============================== */
+.about {
+    width: 60%;
+    margin: 35px auto;
+    background: #006F8C;
+    padding: 2%;
+    color: #fff;
+}
+/* COMPONENTS ============================== */
+.components {
+    width: 60%;
+    margin: 35px auto;
+    background: #00aad6;
+    padding: 2%;
+    color: #fff;
+}
+
+.components img {
+    display: block;
+    max-width: 100%;
+    margin: 5% auto;   
+}
+
+.components p {
+    text-align: center;
+}
