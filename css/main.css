@@ -32,6 +32,10 @@ nav h1 {
     position: 
 }
 
+#logo-name {
+  margin-top: 70px;
+}
+
 /* ABOUT ============================== */
 .about {
     width: 60%;
@@ -58,3 +62,84 @@ nav h1 {
 .components p {
     text-align: center;
 }
+
+
+
+html {font-size:16px;}
+
+body { font-family: 'Lato', sans-serif;
+    margin:0; text-align:center; }
+
+h1 { line-height:100px; margin:0; }
+
+.hero-bg {
+  background:#222;
+  height:100%;
+  max-height:468px;
+  width:100%;
+  clear:both;
+  position:absolute;
+  margin-bottom:200px;
+  
+  background:url(..img/smokies.jpg) no-repeat center center;
+  background-size:cover;
+  
+  @media (min-width:641px) and (max-width:1024px) {
+    background:url(..img/smokies.jpg) no-repeat center center;
+    background-size:cover;
+  }
+  
+  /*@media (min-width:1025px) and (max-width:1500px) {
+    background:url(..img/smokies.jpg) no-repeat center center;
+    background-size:cover;
+  }*/
+  
+  @media (min-width:1501px){
+    background:url(..img/smokies.jpg) no-repeat center center;
+    background-size:cover;
+  }
+  
+  
+}
+
+.hero-content {
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  box-pack: center;
+  height: 100%;
+}
+
+#cta {
+  color:#fff;
+  font-size:3em;
+  font-weight: 300;
+  margin: 0;
+}
+
+#cta-p {
+    color:#FFFFF7;
+    margin: 10px 0 30px;
+}
+
+button {
+  color:#fff;
+  font-size:1.2em;
+  border:1px solid #FFFFF7;
+  padding:10px 20px;
+  background:rgba(0,0,0,0.5);
+}
+    
+button a {
+  text-decoration:none;
+  color: #fff;
+}    
